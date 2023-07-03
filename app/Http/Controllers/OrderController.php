@@ -241,7 +241,6 @@ class OrderController extends Controller
 				'customer_city_id' => $params['city_id'],
 				'customer_province_id' => $params['province_id'],
 				'customer_postcode' => $params['postcode'],
-				'note' => $params['note'],
 				'shipping_courier' => $selectedShipping['courier'],
 				'shipping_service_name' => $selectedShipping['service'],
 			];
